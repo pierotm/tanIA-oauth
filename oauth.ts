@@ -20,7 +20,7 @@ export const startOAuth = (_req: Request, res: Response) => {
     access_type: 'offline',
     prompt: 'consent',
     scope: [
-      'https://www.googleapis.com/auth/drive.readonly',
+      'https://www.googleapis.com/auth/drive',
       'https://www.googleapis.com/auth/gmail.send'
     ]
   });
